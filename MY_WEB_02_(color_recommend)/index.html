@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>오늘의 옷 색깔 추천</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>오늘의 옷 색깔 추천</h1>
+        <div id="date"></div>
+        <div class="recommend-group">
+            <div class="recommend-item">
+                <h2>상의 추천</h2>
+                <div id="top-color-sample" class="color-sample"></div>
+                <div id="top-color-desc" class="color-desc">상의 색상과 설명</div>
+            </div>
+            <div class="recommend-item">
+                <h2>하의 추천</h2>
+                <div id="bottom-color-sample" class="color-sample"></div>
+                <div id="bottom-color-desc" class="color-desc">하의 색상과 설명</div>
+            </div>
+        </div>
+        <div class="button-group">
+            <button id="randomColorBtn">다른 색상 추천</button>
+            <button id="modeToggle">다크모드</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
